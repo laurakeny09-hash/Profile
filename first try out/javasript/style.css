@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+}
+form{
+    display:grid;
+    margin: 20px;
+}
+input{
+    margin:10px ;
+}

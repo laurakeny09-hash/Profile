@@ -1,0 +1,28 @@
+header{
+    justify-content: center;
+    background-color: aliceblue;
+
+
+}
+
+body{
+    background-color:rgb(183, 58, 79);
+    color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 8px;
+    box-shadow: inset;
+
+}
+#hero{
+    background-color: rgb(236, 159, 58);
+    color:pink;
+    width: 584px;
+    
+}
+button{
+    background-color: pink;
+}
+img{
+    width:100px ;
+}

@@ -1,0 +1,35 @@
+header{
+    background-color:palevioletred;
+    
+
+}
+body{
+
+    background-color: pink;
+    padding: 0px;
+    height: 0px;
+
+}
+#container{
+    background-color:plum;
+    border: 5px;
+    height: 500px;
+    width: 1000px;
+    
+    
+}
+#firsection{
+    background-color: blueviolet;
+    padding:20px ;
+    margin-top:15px ;
+    display:flex ;
+}
+#firstsection section{
+    background-color:pink;
+    margin: 20px;
+    padding: 15px;
+}
+#secondsection{
+    background-color:rgb(237, 151, 151);
+    color:rgb(73, 66, 66);
+}
