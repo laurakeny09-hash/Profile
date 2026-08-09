@@ -3,37 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Keny Laura - Student and Junior Web Developer from Cameroon">
+    <title>Keny Laura | Web Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="logo">KN</h1>
-        <nav>
-            <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">About</a> </li>
-                <li> <a href="#">Projects</a> </li>
-                <li> <a href="#">Contact</a> </li>
-            </ul>
-            </ul>
-            </ul>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">K<span>L</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero">
-        <h1>Welcome To Kenny Cosmetics</h1>
-        <p>We deliver and exceed clients expectations</p>
-    </section>
+    <main>
 
-    <div id="container">
-        <section>
-            <h1 id="num">0</h1>
-            <button id="btn">Increase</button>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg"></div>
+
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <p class="eyebrow">HELLO, I'M</p>
+
+                    <h1>
+                        Keny <span>Laura</span>
+                    </h1>
+
+                    <h2>Student & Junior Web Developer</h2>
+
+                    <p class="hero-description">
+                        I create clean, modern and user-friendly websites
+                        while continuously learning and growing as a developer
+                        in Cameroon.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Let's Talk
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="profile-circle">
+                        <span>KL</span>
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <span>💻</span>
+                        <div>
+                            <strong>Web Development</strong>
+                            <small>Always learning</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <span>🇨🇲</span>
+                        <div>
+                            <strong>Cameroon</strong>
+                            <small>Based in Cameroon</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-down">
+                <span>Scroll down</span>
+                ↓
+            </a>
         </section>
-        <section></section>
-    </div>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ABOUT ME</p>
+                    <h2>Building my future, <span>one line of code</span> at a time.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm <strong>Keny Laura</strong>, a student and junior
+                            web developer from Cameroon with a passion for
+                            technology, creativity and problem solving.
+                        </p>
+
+                        <p>
+                            I'm currently developing my skills in front-end
+                            development and learning how to transform ideas
+                            into beautiful, responsive and accessible websites.
+                        </p>
+
+                        <p>
+                            My goal is to become a highly skilled developer
+                            while creating digital experiences that are useful,
+                            simple and enjoyable to use.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Get in touch <span>→</span>
+                        </a>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <strong>01</strong>
+                            <span>Student</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <strong>02</strong>
+                            <span>Junior Developer</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <strong>∞</strong>
+                            <span>Learning Mindset</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <strong>CM</strong>
+                            <span>Cameroon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="eyebrow">MY SKILLS</p>
+                    <h2>Tools I use to bring ideas <span>to life.</span></h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>
+                            Building structured and semantic web pages.
+                        </p>
+                        <div class="skill-bar">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">✦</div>
+                        <h3>CSS</h3>
+                        <p>
+                            Creating responsive and visually attractive designs.
+                        </p>
+                        <div class="skill-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Adding interaction and functionality to websites.
+                        </p>
+                        <div class="skill-bar">
+                            <span style="width: 70%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">GIT</div>
+                        <h3>Git</h3>
+                        <p>
+                            Managing projects and keeping track of code changes.
+                        </p>
+                        <div class="skill-bar">
+                            <span style="width: 65%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY PROJECTS</p>
+                    <h2>Some things I've been <span>working on.</span></h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card project-large">
+                        <div class="project-image gradient-one">
+                            <span class="project-number">01</span>
+                            <div class="mock-browser">
+                                <div class="browser-top">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                                <div class="browser-content">
+                                    <strong>Portfolio</strong>
+                                    <small>Creative Web Experience</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-info">
+                            <p>WEB DESIGN</p>
+                            <h3>Personal Portfolio</h3>
+                            <span>
+                                A modern responsive portfolio designed to
+                                showcase skills and projects.
+                            </span>
+                            <a href="#contact" class="project-link">View project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image gradient-two">
+                            <span class="project-number">02</span>
+                            <div class="project-symbol">🛍️</div>
+                        </div>
+
+                        <div class="project-info">
+                            <p>FRONT-END</p>
+                            <h3>Mini E-Commerce</h3>
+                            <span>
+                                A simple shopping interface built with
+                                front-end technologies.
+                            </span>
+                            <a href="#contact" class="project-link">View project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image gradient-three">
+                            <span class="project-number">03</span>
+                            <div class="project-symbol">📚</div>
+                        </div>
+
+                        <div class="project-info">
+                            <p>STUDENT PROJECT</p>
+                            <h3>Study Dashboard</h3>
+                            <span>
+                                A clean dashboard concept for organizing
+                                study activities and goals.
+                            </span>
+                            <a href="#contact" class="project-link">View project →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Counter -->
+        <section class="journey-section">
+            <div class="container journey-content">
+                <div>
+                    <p class="eyebrow">MY JOURNEY</p>
+                    <h2>Every project is another step forward.</h2>
+                    <p>
+                        I'm constantly practicing, experimenting and learning
+                        new technologies to become a better developer.
+                    </p>
+                </div>
+
+                <div class="counter-box">
+                    <span class="counter-label">PROJECTS & PRACTICE</span>
+                    <strong id="num">0</strong>
+                    <button id="btn">Add a project</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-text">
+                        <p class="eyebrow">GET IN TOUCH</p>
+                        <h2>Let's create something <span>great.</span></h2>
+
+                        <p>
+                            Have a project, idea, opportunity or simply want
+                            to connect? I'd love to hear from you.
+                        </p>
+
+                        <a href="mailto:your-email@example.com" class="email-link">
+                            your-email@example.com
+                        </a>
+                    </div>
+
+                    <div class="contact-details">
+                        <div>
+                            <span>LOCATION</span>
+                            <strong>Cameroon 🇨🇲</strong>
+                        </div>
+
+                        <div>
+                            <span>ROLE</span>
+                            <strong>Student / Junior Developer</strong>
+                        </div>
+
+                        <div>
+                            <span>AVAILABLE FOR</span>
+                            <strong>Projects & Opportunities</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <a href="#home" class="logo">K<span>L</span></a>
+
+            <p>
+                Designed & built by <strong>Keny Laura</strong> © 2026
+            </p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
