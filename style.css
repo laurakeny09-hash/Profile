@@ -181,7 +181,7 @@ button {
 .hero h2 {
     font-size: clamp(20px, 3vw, 30px);
     font-weight: 500;
-    color: #d8d6dc;
+    color:grey;
     margin-bottom: 20px;
 }
 
@@ -259,7 +259,7 @@ button {
     content: '';
     position: absolute;
     inset: -18px;
-    border: 1px dashed rgba(199, 255, 61, 0.25);
+    border: 1px dashed rgba(199, 203, 190, 0.25);
     border-radius: 50%;
     animation: rotate 20s linear infinite;
 }
